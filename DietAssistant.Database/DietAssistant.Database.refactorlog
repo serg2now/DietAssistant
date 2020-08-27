@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="843406e9-187f-44d5-825b-98513e8054f0" ChangeDateTime="06/11/2020 12:12:46">
+    <Property Name="ElementName" Value="[dbo].[ConsumedDish].[ConsumeType]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ConsumedDish]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ConsumeTimeTypeId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="4b0b751f-82a7-4642-84d9-8a17b8e164a3" ChangeDateTime="06/11/2020 12:14:10">
+    <Property Name="ElementName" Value="[dbo].[ConsumedDish].[Carbohydrates]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ConsumedDish]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CarbohydratesAmount" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="d9cbdb49-148f-44cb-aea8-bc852374e6f9" ChangeDateTime="06/11/2020 12:26:38">
+    <Property Name="ElementName" Value="[dbo].[DailyReport].[Violations]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[DailyReport]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Warnings" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="cd1368c7-0f6b-4a85-8160-236c5a3dbffe" ChangeDateTime="06/11/2020 12:26:50">
+    <Property Name="ElementName" Value="[dbo].[DailyReport].[HasViolations]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[DailyReport]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="HasWarnings" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="417d68c7-072c-4b2e-a579-48e2190b3787" ChangeDateTime="06/11/2020 15:19:43">
+    <Property Name="ElementName" Value="[dbo].[User].[Weight]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[User]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="WeightInKilos" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="4fa308a8-845f-4a99-9d94-6124b03a3e63" ChangeDateTime="06/13/2020 14:02:02">
+    <Property Name="ElementName" Value="[dbo].[ConsumedDish].[FoodTypeId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ConsumedDish]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="isFoodStuff" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="531c5d20-7dad-46a5-a12c-3e7011d299bf" ChangeDateTime="06/13/2020 14:02:10">
+    <Property Name="ElementName" Value="[dbo].[ConsumedDish].[isFoodStuff]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ConsumedDish]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IsFoodStuff" />
+  </Operation>
+</Operations>

@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DietAssistant.Services", "DietAssistant.Service\DietAssistant.Services.csproj", "{33F0392D-CD49-49A7-A413-6F5999BE2148}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DietAssistant.DAL", "DietAssistant.DAL\DietAssistant.DAL.csproj", "{B54E42E4-CAC5-42A1-A231-02C2C2721F51}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "DietAssistant.Database", "DietAssistant.Database\DietAssistant.Database.sqlproj", "{F5E0ADC8-A954-4621-B8D5-245EFC5AB014}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DietAssistant.API", "DietAssistant.API\DietAssistant.API.csproj", "{98F3624C-7559-482D-A349-46D3345FB8CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DietAssistant.Tests", "DietAssistant.Tests\DietAssistant.Tests.csproj", "{3C374B5D-C3CB-4D06-A245-DA9B0DEF7D19}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33F0392D-CD49-49A7-A413-6F5999BE2148}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33F0392D-CD49-49A7-A413-6F5999BE2148}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33F0392D-CD49-49A7-A413-6F5999BE2148}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33F0392D-CD49-49A7-A413-6F5999BE2148}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B54E42E4-CAC5-42A1-A231-02C2C2721F51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B54E42E4-CAC5-42A1-A231-02C2C2721F51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B54E42E4-CAC5-42A1-A231-02C2C2721F51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B54E42E4-CAC5-42A1-A231-02C2C2721F51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5E0ADC8-A954-4621-B8D5-245EFC5AB014}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5E0ADC8-A954-4621-B8D5-245EFC5AB014}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5E0ADC8-A954-4621-B8D5-245EFC5AB014}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F5E0ADC8-A954-4621-B8D5-245EFC5AB014}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5E0ADC8-A954-4621-B8D5-245EFC5AB014}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5E0ADC8-A954-4621-B8D5-245EFC5AB014}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{98F3624C-7559-482D-A349-46D3345FB8CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98F3624C-7559-482D-A349-46D3345FB8CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98F3624C-7559-482D-A349-46D3345FB8CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98F3624C-7559-482D-A349-46D3345FB8CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C374B5D-C3CB-4D06-A245-DA9B0DEF7D19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C374B5D-C3CB-4D06-A245-DA9B0DEF7D19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C374B5D-C3CB-4D06-A245-DA9B0DEF7D19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C374B5D-C3CB-4D06-A245-DA9B0DEF7D19}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EDA5F5F9-4328-49DB-8F5B-6A5BDF711617}
+	EndGlobalSection
+EndGlobal
